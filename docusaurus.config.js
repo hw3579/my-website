@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: '相得益章项目',
   tagline: '一个关注社会被遗忘群体的项目',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://hw3579.github.io',
+  baseUrl: 'https://github.com/hw3579/my-website/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'hw3579', // Usually your GitHub org/user name.
-  projectName: 'my-website 挑战杯', // Usually your repo name.
+  projectName: 'my-website', // Usually your repo name.
 
   presets: [
     [
