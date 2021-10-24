@@ -11,7 +11,7 @@ const FeatureList = [
         This is a test page. This part have not finished.
       </>
     ),
-  },
+  }/*,
   {
     title: 'Focus on What Matters',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
@@ -31,7 +31,7 @@ const FeatureList = [
         be extended while reusing the same header and footer.
       </>
     ),
-  },
+  },*/
 ];
 
 function Feature({Svg, title, description}) {
