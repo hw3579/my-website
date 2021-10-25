@@ -9,7 +9,7 @@ const config = {
   title: '相得益章项目',
   tagline: '一个关注社会被遗忘群体的项目',
   url: 'https://hw3579.github.io',
-  baseUrl: '/',
+  baseUrl: '/my-website/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
