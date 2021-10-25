@@ -5,23 +5,25 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: '刺绣魔术贴',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('../../static/img/cixiu.svg').default,
+    //Svg: require('../../static/img/cixiu2.svg').default,
     description: (
       <>
-        This is a test page. This part have not finished.
-      </>
-    ),
-  }/*,
-  {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        刺绣T与刺绣手提包中运用魔术贴，在魔术贴上刺绣儿童绘制图案。
+        刺绣可随意粘贴或撕下，便于更换款式，达到“一衣多穿”“一包多用”的效果。
       </>
     ),
   },
+  {
+    title: '中国风吉祥香包',
+    Svg: require('../../static/img/xiangbao.svg').default,
+    description: (
+      <>
+        香包外形以中国风人偶为设计，加以刺绣图案点缀。
+        在具有香气的同时，中国风吉祥香包还具有美好寓意。
+      </>
+    ),
+  },/*
   {
     title: 'Powered by React',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
@@ -31,7 +33,8 @@ const FeatureList = [
         be extended while reusing the same header and footer.
       </>
     ),
-  },*/
+  },
+  */
 ];
 
 function Feature({Svg, title, description}) {

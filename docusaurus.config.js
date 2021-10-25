@@ -46,16 +46,16 @@ const config = {
         title: '相得益章',
         logo: {
           alt: '相得益章项目 Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.jpg',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '项目简介',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          /*{to: '/blog', label: 'Blog', position: 'left'},*/
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
